@@ -10,9 +10,6 @@
 		89D987B320EAB77D004CEC75 /* AnalyticsManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D987A920EAB77D004CEC75 /* AnalyticsManager.framework */; };
 		89D987B820EAB77D004CEC75 /* AnalyticsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987B720EAB77D004CEC75 /* AnalyticsManagerTests.swift */; };
 		89D987BA20EAB77D004CEC75 /* AnalyticsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D987AC20EAB77D004CEC75 /* AnalyticsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89D987C620EAB824004CEC75 /* AnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987C320EAB823004CEC75 /* AnalyticsEngine.swift */; };
-		89D987C720EAB824004CEC75 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987C420EAB824004CEC75 /* AnalyticsManager.swift */; };
-		89D987C820EAB824004CEC75 /* LogAnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987C520EAB824004CEC75 /* LogAnalyticsEngine.swift */; };
 		89D987D020EAB83F004CEC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987CF20EAB83F004CEC75 /* AppDelegate.swift */; };
 		89D987D520EAB83F004CEC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D987D320EAB83F004CEC75 /* Main.storyboard */; };
 		89D987D720EAB841004CEC75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D987D620EAB841004CEC75 /* Assets.xcassets */; };
@@ -20,9 +17,12 @@
 		89D987E520EAB841004CEC75 /* AnalyticsManagerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987E420EAB841004CEC75 /* AnalyticsManagerExampleTests.swift */; };
 		89D987F020EAB841004CEC75 /* AnalyticsManagerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987EF20EAB841004CEC75 /* AnalyticsManagerExampleUITests.swift */; };
 		89D987FC20EAB9E1004CEC75 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987FB20EAB9E1004CEC75 /* TableViewController.swift */; };
-		89D987FD20EABA56004CEC75 /* LogAnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987C520EAB824004CEC75 /* LogAnalyticsEngine.swift */; };
-		89D987FE20EABA58004CEC75 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987C420EAB824004CEC75 /* AnalyticsManager.swift */; };
-		89D987FF20EABA5B004CEC75 /* AnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D987C320EAB823004CEC75 /* AnalyticsEngine.swift */; };
+		89D9880320EABDA3004CEC75 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9880020EABDA3004CEC75 /* AnalyticsManager.swift */; };
+		89D9880420EABDA3004CEC75 /* AnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9880120EABDA3004CEC75 /* AnalyticsEngine.swift */; };
+		89D9880520EABDA3004CEC75 /* LogAnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9880220EABDA3004CEC75 /* LogAnalyticsEngine.swift */; };
+		89D9880620EABDA9004CEC75 /* AnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9880120EABDA3004CEC75 /* AnalyticsEngine.swift */; };
+		89D9880720EABDA9004CEC75 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9880020EABDA3004CEC75 /* AnalyticsManager.swift */; };
+		89D9880820EABDA9004CEC75 /* LogAnalyticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9880220EABDA3004CEC75 /* LogAnalyticsEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,6 @@
 		89D987B220EAB77D004CEC75 /* AnalyticsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalyticsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D987B720EAB77D004CEC75 /* AnalyticsManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManagerTests.swift; sourceTree = "<group>"; };
 		89D987B920EAB77D004CEC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89D987C320EAB823004CEC75 /* AnalyticsEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsEngine.swift; path = ../../AnalyticsManagerOld/AnalyticsManager/AnalyticsEngine.swift; sourceTree = "<group>"; };
-		89D987C420EAB824004CEC75 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsManager.swift; path = ../../AnalyticsManagerOld/AnalyticsManager/AnalyticsManager.swift; sourceTree = "<group>"; };
-		89D987C520EAB824004CEC75 /* LogAnalyticsEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogAnalyticsEngine.swift; path = ../../AnalyticsManagerOld/AnalyticsManager/LogAnalyticsEngine.swift; sourceTree = "<group>"; };
 		89D987CD20EAB83F004CEC75 /* AnalyticsManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalyticsManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D987CF20EAB83F004CEC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89D987D420EAB83F004CEC75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +69,9 @@
 		89D987EF20EAB841004CEC75 /* AnalyticsManagerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManagerExampleUITests.swift; sourceTree = "<group>"; };
 		89D987F120EAB841004CEC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D987FB20EAB9E1004CEC75 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		89D9880020EABDA3004CEC75 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		89D9880120EABDA3004CEC75 /* AnalyticsEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsEngine.swift; sourceTree = "<group>"; };
+		89D9880220EABDA3004CEC75 /* LogAnalyticsEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogAnalyticsEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +141,9 @@
 		89D987AB20EAB77D004CEC75 /* AnalyticsManager */ = {
 			isa = PBXGroup;
 			children = (
-				89D987C320EAB823004CEC75 /* AnalyticsEngine.swift */,
-				89D987C420EAB824004CEC75 /* AnalyticsManager.swift */,
-				89D987C520EAB824004CEC75 /* LogAnalyticsEngine.swift */,
+				89D9880120EABDA3004CEC75 /* AnalyticsEngine.swift */,
+				89D9880020EABDA3004CEC75 /* AnalyticsManager.swift */,
+				89D9880220EABDA3004CEC75 /* LogAnalyticsEngine.swift */,
 				89D987AC20EAB77D004CEC75 /* AnalyticsManager.h */,
 				89D987AD20EAB77D004CEC75 /* Info.plist */,
 			);
@@ -391,9 +391,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D987C720EAB824004CEC75 /* AnalyticsManager.swift in Sources */,
-				89D987C620EAB824004CEC75 /* AnalyticsEngine.swift in Sources */,
-				89D987C820EAB824004CEC75 /* LogAnalyticsEngine.swift in Sources */,
+				89D9880420EABDA3004CEC75 /* AnalyticsEngine.swift in Sources */,
+				89D9880320EABDA3004CEC75 /* AnalyticsManager.swift in Sources */,
+				89D9880520EABDA3004CEC75 /* LogAnalyticsEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,11 +409,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D987FE20EABA58004CEC75 /* AnalyticsManager.swift in Sources */,
+				89D9880720EABDA9004CEC75 /* AnalyticsManager.swift in Sources */,
+				89D9880820EABDA9004CEC75 /* LogAnalyticsEngine.swift in Sources */,
 				89D987D020EAB83F004CEC75 /* AppDelegate.swift in Sources */,
+				89D9880620EABDA9004CEC75 /* AnalyticsEngine.swift in Sources */,
 				89D987FC20EAB9E1004CEC75 /* TableViewController.swift in Sources */,
-				89D987FD20EABA56004CEC75 /* LogAnalyticsEngine.swift in Sources */,
-				89D987FF20EABA5B004CEC75 /* AnalyticsEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
